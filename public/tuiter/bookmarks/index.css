@@ -1,0 +1,123 @@
+body {
+    background: black;
+    font-family: system-ui;
+}
+
+.p-16 {
+    padding-left: 16px;
+}
+
+.border-grey {
+    border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-bookmark-header {
+    font-size: 20px;
+    color: white;
+}
+
+.wd-handler {
+    font-size: 13px;
+    color: rgb(47, 51, 54);
+}
+
+.br-btm-grey {
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.m-t-12 {
+    margin-top: 12px;
+}
+
+.br-48 {
+    border-radius: 48%;
+}
+
+.color-white {
+    color: white;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.wp-flex {
+    display: flex;
+}
+
+.wd-post-content {
+    max-width: 506px;
+}
+
+.br-20 {
+    border-radius: 20px;
+}
+
+.wp-flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ml-12 {
+    margin-left: 12px;
+}
+
+.color-grey {
+    color: rgb(47, 51, 54);
+}
+
+.color-red {
+    color: red;
+}
+
+.wp-common-offset {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+}
+
+.wd-flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.color-blue {
+    color: rgb(29, 161, 242);
+}
+
+.pr-12 {
+    padding-right: 12px;
+}
+
+.m-0 {
+    margin: 0px;
+}
+
+.fnt-weight-800 {
+    font-weight: 800;
+}
+
+.float-right {
+    float: right;
+}
+
+.wp-img-border {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.p-12 {
+    padding: 12px;
+}
+
+.wp-flex {
+    display: flex;
+}
