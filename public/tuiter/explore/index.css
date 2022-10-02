@@ -3,7 +3,7 @@ body {
     font-family: system-ui;
 }
 
-.flex-container {
+.wd-flex-container {
     border-width: 1px;
     border-color: rgb(47, 51, 54);
     border-style: solid;
@@ -18,13 +18,13 @@ body {
     align-items: center;
 }
 
-.flex-box {
+.wd-flex-box {
     /* border: 5px gray solid; */
     margin-left: 16px;
     margin-top: 16px;
 }
 
-.color-blue {
+.wd-color-blue {
     color: rgb(29, 161, 242);
 }
 
@@ -59,16 +59,17 @@ body {
 }
 
 #wd-search-input::placeholder {
-    color: #999999;
+    color: rgb(110, 118, 125);
     padding-left: 50px;
+    font-size: 15px;
 }
 
-.mr-12 {
+.wd-mr-12 {
     margin-right: 12px;
 }
 
-.color-light-grey {
-    color: #999999;
+.wd-color-light-grey {
+    color: rgb(110, 118, 125);
 }
 
 .wd-search-icon {
@@ -95,7 +96,7 @@ body {
     padding: 16px 16px 0 16px;
 }
 
-.mt-15 {
+.wd-mt-15 {
     margin-top: 15px;
 }
 
@@ -122,56 +123,56 @@ body {
     color: rgb(110, 118, 125);
 }
 
-.color-white {
+.wd-color-white {
     color: white;
 }
 
-.mt-20 {
+.wd-mt-20 {
     margin-top: 20px;
 }
 
-.border-grey {
+.wd-border-grey {
     border-top: 1px solid rgb(47, 51, 54);
 }
 
-.br-15 {
+.wd-br-15 {
     border-radius: 15px;
 }
 
-.float-left {
+.wd-float-left {
     float: left;
 }
 
-.float-right {
+.wd-float-right {
     float: right;
 }
 
-.m-0 {
+.wd-m-0 {
     margin: 0px;
 }
 
-.flex-space-between {
+.wd-flex-space-between {
     display: flex;
     justify-content: space-between;
 }
 
-.fnt-weight-800 {
+.wd-fnt-weight-800 {
     font-weight: 800;
 }
 
-.ml-16 {
+.wd-ml-16 {
     margin-left: 16px;
 }
 
-.mt-16 {
+.wd-mt-16 {
     margin-top: 16px;
 }
 
-.wp-common-offest {
-    padding: 12px 12px 12px 16px;
+.wd-common-offest {
+    padding: 12px 16px 12px 16px;
 }
 
-.wp-separator-space {
+.wd-separator-space {
     padding: 10px;
     background: #1F2022;
 }

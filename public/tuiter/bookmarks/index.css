@@ -3,11 +3,11 @@ body {
     font-family: system-ui;
 }
 
-.p-16 {
+.wd-p-16 {
     padding-left: 16px;
 }
 
-.border-grey {
+.wd-border-grey {
     border: 1px solid rgb(47, 51, 54);
 }
 
@@ -18,30 +18,30 @@ body {
 
 .wd-handler {
     font-size: 13px;
-    color: rgb(47, 51, 54);
+    color: rgb(110, 118, 125);
 }
 
-.br-btm-grey {
+.wd-br-btm-grey {
     border-bottom: 1px solid rgb(47, 51, 54);
 }
 
-.m-t-12 {
+.wd-m-t-12 {
     margin-top: 12px;
 }
 
-.br-48 {
-    border-radius: 48%;
+.wd-br-24 {
+    border-radius: 24px;
 }
 
-.color-white {
+.wd-color-white {
     color: white;
 }
 
-.fs-15 {
+.wd-fs-15 {
     font-size: 15px;
 }
 
-.wp-flex {
+.wd-flex {
     display: flex;
 }
 
@@ -49,28 +49,28 @@ body {
     max-width: 506px;
 }
 
-.br-20 {
+.wd-br-20 {
     border-radius: 20px;
 }
 
-.wp-flex-space-between {
+.wd-flex-space-between {
     display: flex;
     justify-content: space-between;
 }
 
-.ml-12 {
+.wd-ml-12 {
     margin-left: 12px;
 }
 
-.color-grey {
-    color: rgb(47, 51, 54);
+.wd-color-grey {
+    color: rgb(110, 118, 125);
 }
 
-.color-red {
+.wd-color-red {
     color: red;
 }
 
-.wp-common-offset {
+.wd-common-offset {
     padding-left: 16px;
     padding-top: 12px;
     padding-right: 12px;
@@ -82,42 +82,50 @@ body {
     justify-content: space-between;
 }
 
-.color-blue {
+.wd-color-blue {
     color: rgb(29, 161, 242);
 }
 
-.pr-12 {
+.wd-pr-12 {
     padding-right: 12px;
 }
 
-.m-0 {
+.wd-m-0 {
     margin: 0px;
 }
 
-.fnt-weight-800 {
+.wd-fnt-weight-800 {
     font-weight: 800;
 }
 
-.float-right {
+.wd-float-right {
     float: right;
 }
 
-.wp-img-border {
+.wd-img-border {
     border-radius: 20px 20px 0px 0px;
 }
 
-.mt-12 {
+.wd-mt-12 {
     margin-top: 12px;
 }
 
-.mt-5 {
+.wd-mt-5 {
     margin-top: 5px;
 }
 
-.p-12 {
+.wd-p-12 {
     padding: 12px;
 }
 
-.wp-flex {
+.wd-flex {
     display: flex;
+}
+
+.wd-pr-16 {
+    padding-right: 16px;
+}
+
+.wd-font-bold {
+    font-weight: bold;
 }
