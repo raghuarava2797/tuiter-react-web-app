@@ -5,139 +5,394 @@
     <meta charset="UTF-8">
     <title>Explore</title>
     <link href="index.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
 </head>
 
 <body>
-    <div class="wd-flex-container">
-        <div class="wd-search-container">
-            <div class="wd-search-section">
-                <i class="fa-solid fa-magnifying-glass wd-search-icon wd-color-light-grey"></i>
-                <input type="text" id="wd-search-input" placeholder="Search Tuiter" title="Search" />
-            </div>
-            <div class="wd-mr-12">
-                <a href="explore-settings.html"><i class="fa-solid fa-gear wd-color-blue"></i></a>
-            </div>
-        </div>
-        <div class="wd-menu-options-container">
-            <div>
-                <a class="wd-menu-btn wd-fnt-weight-800" href="#">
-                    For you
-                </a>
-                <div class="wd-highlight">
+    <!-- <div class="wd-flex-container">
+         <div class="wd-search-container">
+             <div class="wd-search-section">
+                 <i class="fa-solid fa-magnifying-glass wd-search-icon wd-color-light-grey"></i>
+                 <input type="text" id="wd-search-input" placeholder="Search Tuiter" title="Search" />
+             </div>
+             <div class="wd-mr-12">
+                 <a href="explore-settings.html"><i class="fa-solid fa-gear wd-color-blue"></i></a>
+             </div>
+         </div>
+         <div class="wd-menu-options-container">
+             <div>
+                 <a class="wd-menu-btn wd-fnt-weight-800" href="#">
+                     For you
+                 </a>
+                 <div class="wd-highlight">
+                 </div>
+             </div>
+             <div>
+                 <a class="wd-menu-btn wd-fnt-weight-800" href="#">
+                     Trending
+                 </a>
+             </div>
+             <div>
+                 <a class="wd-menu-btn wd-fnt-weight-800" href="#">
+                     COVID-19
+                 </a>
+             </div>
+             <div>
+                 <a class="wd-menu-btn wd-fnt-weight-800" href="#">
+                     News
+                 </a>
+             </div>
+             <div>
+                 <a class="wd-menu-btn wd-fnt-weight-800" href="#">
+                     Sports
+                 </a>
+             </div>
+             <div>
+                 <a class="wd-menu-btn wd-fnt-weight-800" href="#">
+                     Entertainment
+                 </a>
+             </div>
+         </div>
+         <div>
+             <div class="wd-border-section"></div>
+         </div>
+         <div class="wd-separator-space"></div>
+         <div class="wd-border-grey wd-common-offest">
+             <div class="wd-flex-space-between">
+                 <div>
+                     <span class="wd-suggest-header">Trending in Science</span>
+                     <br>
+                     <span class="wd-color-white wd-fnt-weight-800">Starship</span>
+                     <br>
+                     <span class="wd-suggest-header">5.5K Tweets</span>
+                 </div>
+                 <div>
+                     <i class="fa-solid fa-ellipsis wd-color-white"></i>
+                 </div>
+             </div>
+             <div class="wd-flex-space-between wd-mt-20">
+                 <div>
+                     <span class="wd-suggest-header">Sports . Trending</span>
+                     <br>
+                     <span class="wd-color-white wd-fnt-weight-800">Joe Rogan</span>
+                     <br>
+                     <span class="wd-suggest-header">5,218 Tweets</span>
+                 </div>
+                 <div>
+                     <i class="fa-solid fa-ellipsis wd-color-light-grey"></i>
+                 </div>
+             </div>
+         </div>
+         <div class="wd-border-grey wd-flex-space-between wd-common-offest">
+             <div>
+                 <span><img src="../newyork-times.png" width="15px" height="15px"/></span>
+                 <span class="wd-color-white wd-fnt-weight-800 ">The New York Times</span>
+                 <span class="wd-suggest-header"> . Yesterday</span>
+                 <p class="wd-color-white wd-m-0 wd-fnt-weight-800">CNN's Cuomo conundrum: A star anchor with a brother in trouble</p>
+             </div>
+             <div>
+                 <img src="../news.jpg" width="100px" height="100px" class="wd-br-15" />
+             </div>
+         </div>
+         
+         <div class="wd-border-grey wd-flex-space-between wd-common-offest">
+             <div>
+                 <span class="wd-suggest-header">COVID-19 . LIVE</span>
+                 <p class="wd-color-white wd-m-0 wd-fnt-weight-800">COVID-19: News and updated for Massachusetts</p>
+             </div>
+             <div>
+                 <img src="../massachussets.png" width="100px" height="100px" class="wd-br-15" />
+             </div>
+         </div>
+         
+         <div class="wd-border-grey wd-flex-space-between wd-common-offest">
+             <div>
+                 <span class="wd-suggest-header">Ukraine . LIVE</span>
+                 <p class="wd-color-white wd-m-0 wd-fnt-weight-800">Ukraine war: News and updated for Massachusetts</p>
+             </div>
+             <div>
+                 <img src="../news.jpg" width="100px" height="100px" class="wd-br-15" />
+             </div>
+         </div>
+         
+         <div class="wd-border-grey wd-flex-space-between wd-common-offest">
+             <div>
+                 <span><img src="../bloomberg.png" width="15px" height="15px"/></span>
+                 <span class="wd-color-white wd-fnt-weight-800 ">Bloomberg opinion</span>
+                 <span class="wd-suggest-header"> . Yesterday</span>
+                 <p class="wd-color-white wd-m-0 wd-fnt-weight-800">Thinking about a booster? Read this first</p>
+             </div>
+             <div>
+                 <img src="../massachussets.png" width="100px" height="100px" class="wd-br-15" />
+             </div>
+         </div>
+         <div class="wd-border-grey wd-common-offest">
+             <div class="wd-flex-space-between">
+                 <div>
+                     <span class="wd-suggest-header">Trending in United States</span>
+                     <br>
+                     <span class="wd-color-white wd-fnt-weight-800">Wonder Bread</span>
+                     <br>
+                     <span class="wd-suggest-header">1,259 Tweets</span>
+                 </div>
+                 <div>
+                     <i class="fa-solid fa-ellipsis wd-color-light-grey"></i>
+                 </div>
+             </div>
+         </div>
+         </div> -->
+    <div class="mx-auto mt-2">
+        <div class="container">
+            <div class="row">
+                <!-- Start of the left side navigation menu -->
+                <div class="col-2">
+                    <div id="navigation-section">
+                        <div class="list-group">
+                            <div class="list-group-item"><i class="fa fa-cog"></i></div>
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <i class="fa fa-cog"></i> Home</a>
+                            <a href="#" class="list-group-item list-group-item-action active">
+                                <i class="fa fa-cog"></i> Explore</a>
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <i class="fa fa-cog"></i> Notifications</a>
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <i class="fa fa-cog"></i> Messages</a>
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <i class="fa fa-cog"></i> Bookmarks</a>
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <i class="fa fa-cog"></i> Lists</a>
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <i class="fa fa-cog"></i> Profile</a>
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <i class="fa fa-cog"></i> More</a>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary rounded-pill">Tuiter</button>
                 </div>
-            </div>
-            <div>
-                <a class="wd-menu-btn wd-fnt-weight-800" href="#">
-                    Trending
-                </a>
-            </div>
-            <div>
-                <a class="wd-menu-btn wd-fnt-weight-800" href="#">
-                    COVID-19
-                </a>
-            </div>
-            <div>
-                <a class="wd-menu-btn wd-fnt-weight-800" href="#">
-                    News
-                </a>
-            </div>
-            <div>
-                <a class="wd-menu-btn wd-fnt-weight-800" href="#">
-                    Sports
-                </a>
-            </div>
-            <div>
-                <a class="wd-menu-btn wd-fnt-weight-800" href="#">
-                    Entertainment
-                </a>
-            </div>
-        </div>
-        <div>
-            <div class="wd-border-section"></div>
-        </div>
-        <div class="wd-separator-space"></div>
-        <div class="wd-border-grey wd-common-offest">
-            <div class="wd-flex-space-between">
-                <div>
-                    <span class="wd-suggest-header">Trending in Science</span>
-                    <br>
-                    <span class="wd-color-white wd-fnt-weight-800">Starship</span>
-                    <br>
-                    <span class="wd-suggest-header">5.5K Tweets</span>
+                <!-- Start of the main news feed content section -->
+                <div class="col-6">
+                    <div id="feed-content-section">
+                        <div class="d-flex align-items-center">
+                            <div class="flex-grow-1">
+                                <div class="input-group border rounded-pill">
+                                    <span class="input-group-text bg-transparent border-0"><i class="fa fa-cog wd-color-blue"></i></span>
+                                    <input type="text" placeholder="Search Tuiter" class="form-control border-0 bg-transparent" title="Search" />
+                                </div>
+                            </div>
+                            <div class="p-2">
+                                <a href="explore-settings.html "><i class="fa fa-cog wd-color-blue"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Navigation pills for different sections -->
+                    <ul class="nav nav-tabs mt-2">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="for-you.html" data-bs-target="#for-you" type="button">For you</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="trending.html" data-bs-target="#trending-panel" type="button">Trending</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html" data-bs-target="#news-panel" type="button">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sports.html" data-bs-target="#sports-panel" type="button">Sports</a>
+                        </li>
+                        <li class="nav-item d-sm-none d-md-block">
+                            <a class="nav-link " href="entertainment.html" data-bs-target="#entertainment-panel" type="button">Entertainment</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content mt-2">
+                        <div class="tab-pane fade show active" id="for-you-panel" role="tabpanel" aria-labelledby="home-tab" type="button">
+                            <img src="../spacex-starship.jpg" class="w-100" />
+                            <div class="position-relative img-overlay-text h1 font-weight-bold">SpaceX's Starship</div>
+                        </div>
+                        <div class="tab-pane fade" role="tabpanel" id="trending-panel" role="tabpanel" aria-labelledby="home-tab" type="button">
+                            Trending
+                        </div>
+                        <div class="tab-pane fade" role="tabpanel" id="news-panel" role="tabpanel" aria-labelledby="home-tab" type="button">
+                            News
+                        </div>
+                        <div class="tab-pane fade" role="tabpanel" id="sports-panel" role="tabpanel" aria-labelledby="home-tab" type="button">
+                            Sports
+                        </div>
+                        <div class="tab-pane fade " role="tabpanel" id="entertainment-panel" role="tabpanel" aria-labelledby="home-tab" type="button">
+                            Entertainment
+                        </div>
+                    </div>
+                    <ul class="list-group">
+                        <!-- react js feed section -->
+                        <li class="list-group-item">
+                            <div class="d-flex">
+                                <div class="flex-grow-1">
+                                    <span>Web Development</span>
+                                    <br>
+                                    <span class="font-weight-bold">ReactJS</span>
+                                    <span> <i class="fa-solid fa-circle-check"></i></span>
+                                    <span> - 2h</span>
+                                    <br>
+                                    <span class="font-weight-bold">React.js is an component based fron end library that makes it 
+                              very easy to buils Single Page Application or SPAs</span>
+                                </div>
+                                <div>
+                                    <img src="../react-logo.png" class="rounded" width="100px">
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Javascript feed section -->
+                        <li class="list-group-item">
+                            <div class="d-flex">
+                                <div class="flex-grow-1">
+                                    <span class="font-weight-bold">JavaScript</span>
+                                    <span> <i class="fa-solid fa-circle-check"></i></span>
+                                    <span> - 2h</span>
+                                    <br>
+                                    <span class="font-weight-bold">JavaScript is programming language that can run on browsers as well as desktops</span>
+                                    <br>
+                                    <span>123k Tweets</span>
+                                </div>
+                                <div>
+                                    <img src="../js_logo.png" class="rounded" width="100px">
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Jquery feed section -->
+                        <li class="list-group-item">
+                            <div class="d-flex">
+                                <div class="flex-grow-1">
+                                    <span>Web Development</span>
+                                    <br>
+                                    <span class="font-weight-bold">JQuery</span>
+                                    <br>
+                                    <span>123k Tweets</span>
+                                </div>
+                                <div>
+                                    <img src="../jquery_logo.png" class="rounded" width="100px">
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Nodejs feed section -->
+                        <li class="list-group-item">
+                            <div class="d-flex">
+                                <div class="flex-grow-1">
+                                    <span>Web Development</span>
+                                    <br>
+                                    <span class="font-weight-bold">Node JS</span>
+                                    <span> <i class="fa-solid fa-circle-check"></i></span>
+                                    <span> - 2h</span>
+                                    <br>
+                                    <span>123k Tweets</span>
+                                </div>
+                                <div>
+                                    <img src="../nodejs_logo.png" class="rounded" width="100px">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <div>
-                    <i class="fa-solid fa-ellipsis wd-color-white"></i>
-                </div>
-            </div>
-            <div class="wd-flex-space-between wd-mt-20">
-                <div>
-                    <span class="wd-suggest-header">Sports . Trending</span>
-                    <br>
-                    <span class="wd-color-white wd-fnt-weight-800">Joe Rogan</span>
-                    <br>
-                    <span class="wd-suggest-header">5,218 Tweets</span>
-                </div>
-                <div>
-                    <i class="fa-solid fa-ellipsis wd-color-light-grey"></i>
-                </div>
-            </div>
-        </div>
-        <div class="wd-border-grey wd-flex-space-between wd-common-offest">
-            <div>
-                <span><img src="../newyork-times.png" width="15px" height="15px"/></span>
-                <span class="wd-color-white wd-fnt-weight-800 ">The New York Times</span>
-                <span class="wd-suggest-header"> . Yesterday</span>
-                <p class="wd-color-white wd-m-0 wd-fnt-weight-800">CNN's Cuomo conundrum: A star anchor with a brother in trouble</p>
-            </div>
-            <div>
-                <img src="../news.jpg" width="100px" height="100px" class="wd-br-15" />
-            </div>
-        </div>
-
-        <div class="wd-border-grey wd-flex-space-between wd-common-offest">
-            <div>
-                <span class="wd-suggest-header">COVID-19 . LIVE</span>
-                <p class="wd-color-white wd-m-0 wd-fnt-weight-800">COVID-19: News and updated for Massachusetts</p>
-            </div>
-            <div>
-                <img src="../massachussets.png" width="100px" height="100px" class="wd-br-15" />
-            </div>
-        </div>
-
-        <div class="wd-border-grey wd-flex-space-between wd-common-offest">
-            <div>
-                <span class="wd-suggest-header">Ukraine . LIVE</span>
-                <p class="wd-color-white wd-m-0 wd-fnt-weight-800">Ukraine war: News and updated for Massachusetts</p>
-            </div>
-            <div>
-                <img src="../news.jpg" width="100px" height="100px" class="wd-br-15" />
-            </div>
-        </div>
-
-        <div class="wd-border-grey wd-flex-space-between wd-common-offest">
-            <div>
-                <span><img src="../bloomberg.png" width="15px" height="15px"/></span>
-                <span class="wd-color-white wd-fnt-weight-800 ">Bloomberg opinion</span>
-                <span class="wd-suggest-header"> . Yesterday</span>
-                <p class="wd-color-white wd-m-0 wd-fnt-weight-800">Thinking about a booster? Read this first</p>
-            </div>
-            <div>
-                <img src="../massachussets.png" width="100px" height="100px" class="wd-br-15" />
-            </div>
-        </div>
-        <div class="wd-border-grey wd-common-offest">
-            <div class="wd-flex-space-between">
-                <div>
-                    <span class="wd-suggest-header">Trending in United States</span>
-                    <br>
-                    <span class="wd-color-white wd-fnt-weight-800">Wonder Bread</span>
-                    <br>
-                    <span class="wd-suggest-header">1,259 Tweets</span>
-                </div>
-                <div>
-                    <i class="fa-solid fa-ellipsis wd-color-light-grey"></i>
+                <!-- Start of the suggestion section -->
+                <div class="col-4">
+                    <div id="suggestions-section">
+                        <div class="list-group">
+                            <div class="list-group-item font-weight-bold">Who to follow</div>
+                            <!-- java follow section -->
+                            <div class="list-group-item">
+                                <div class="d-flex">
+                                    <div class="flex-grow-1">
+                                        <div class="d-flex">
+                                            <div>
+                                                <img src="../java.png " width="48px " height="48px " class="rounded-circle"></span>
+                                            </div>
+                                            <div class="align-self-center flex-grow-1">
+                                                <div class="d-flex font-weight-bold">Java</span><span><i class="fa fa-cog wd-color-blue"></i></span></div>
+                                                <div class="d-flex">@java</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-primary rounded-pill ">Follow</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Relativity Space section -->
+                            <div class="list-group-item">
+                                <div class="d-flex">
+                                    <div class="flex-grow-1">
+                                        <div class="d-flex">
+                                            <div>
+                                                <img src="../relativity_space.jpg" width="48px " height="48px " class="rounded-circle"></span>
+                                            </div>
+                                            <div class="align-self-center flex-grow-1">
+                                                <div class="d-flex font-weight-bold">Relativity Space</span><span><i class="fa fa-cog wd-color-blue"></i></span></div>
+                                                <div class="d-flex">@relativityspace</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-primary rounded-pill ">Follow</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- virgin galactic Space section -->
+                            <div class="list-group-item">
+                                <div class="d-flex">
+                                    <div class="flex-grow-1">
+                                        <div class="d-flex">
+                                            <div>
+                                                <img src="../Virgin-logo.png" width="48px " height="48px " class="rounded-circle"></span>
+                                            </div>
+                                            <div class="align-self-center flex-grow-1">
+                                                <div class="d-flex font-weight-bold">Virgin Galactic</span><span><i class="fa fa-cog wd-color-blue"></i></span></div>
+                                                <div class="d-flex">@virgingalactic</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-primary rounded-pill ">Follow</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- NASA follow section -->
+                            <div class="list-group-item">
+                                <div class="d-flex">
+                                    <div class="flex-grow-1">
+                                        <div class="d-flex">
+                                            <div>
+                                                <img src="../nasa_logo.png" width="48px " height="48px " class="rounded-circle"></span>
+                                            </div>
+                                            <div class="align-self-center flex-grow-1">
+                                                <div class="d-flex font-weight-bold">NASA</span><span><i class="fa fa-cog wd-color-blue"></i></span></div>
+                                                <div class="d-flex">@NASA</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-primary rounded-pill ">Follow</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Tesla follow section -->
+                            <div class="list-group-item">
+                                <div class="d-flex">
+                                    <div class="flex-grow-1">
+                                        <div class="d-flex">
+                                            <div>
+                                                <img src="../Tesla_logo.png" width="48px " height="48px " class="rounded-circle"></span>
+                                            </div>
+                                            <div class="align-self-center flex-grow-1">
+                                                <div class="d-flex font-weight-bold">Tesla</span><span><i class="fa fa-cog wd-color-blue"></i></span></div>
+                                                <div class="d-flex">@Tesla</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-primary rounded-pill ">Follow</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

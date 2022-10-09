@@ -75,6 +75,7 @@ body {
 .wd-search-icon {
     position: relative;
     left: 40px;
+    color: black;
 }
 
 .wd-search-section {
@@ -175,4 +176,21 @@ body {
 .wd-separator-space {
     padding: 10px;
     background: #1F2022;
+}
+
+
+/********** Bootstrap css starts **********/
+
+#navigation-section .list-group .list-group-item.active a {
+    color: white
+}
+
+.img-overlay-text {
+    color: white;
+    bottom: 65px;
+    left: 10px
+}
+
+.font-weight-bold {
+    font-weight: bold !important;
 }
