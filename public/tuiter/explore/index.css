@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: black;
     font-family: system-ui;
 }
@@ -7,8 +7,6 @@ body {
     border-width: 1px;
     border-color: rgb(47, 51, 54);
     border-style: solid;
-    /* width: 700px; */
-    /* padding-left: 16px; */
 }
 
 .wd-search-container {
@@ -19,7 +17,6 @@ body {
 }
 
 .wd-flex-box {
-    /* border: 5px gray solid; */
     margin-left: 16px;
     margin-top: 16px;
 }
@@ -86,7 +83,6 @@ body {
 .wd-menu-options-container {
     display: flex;
     justify-content: space-between;
-    /* margin-top: 5px; */
 }
 
 .wd-border-section {
@@ -176,7 +172,7 @@ body {
 .wd-separator-space {
     padding: 10px;
     background: #1F2022;
-}
+} */
 
 
 /********** Bootstrap css starts **********/
@@ -193,4 +189,31 @@ body {
 
 .font-weight-bold {
     font-weight: bold !important;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.custom-ellipse {
+    margin-left: -18px;
+    font-size: 0.8em;
+}
+
+.overlay-img-text {
+    margin-bottom: 17px;
+    margin-top: -65px;
+    margin-left: 10px;
+}
+
+.ml-25 {
+    margin-left: 25px;
+}
+
+#wd-search-input::placeholder {
+    color: rgb(110, 118, 125);
 }
