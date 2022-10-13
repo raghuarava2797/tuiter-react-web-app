@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <h2>Embedded script tag</h2>
+    <!-- <h2>Embedded script tag</h2> -->
     <!-- <script>
         alert('Hello World!');
     </script> -->
@@ -21,6 +21,19 @@
     </script>
 
     <h2>Calculating an HTML string</h2>
+    <script>
+        const renderTodos = (todos) => `
+    <ul>
+      ${todos.map(todo =>
+       `<li>${todo}</li>`
+      ).join('')}
+    </ul>`;
+  const todos = ['Pickup kids', 'Feed dogs']
+  let html = renderTodos(todos);
+  document.write(html);
+    </script>
+
+    <!-- <h2>Calculating an HTML string</h2> -->
     <h2 id="bind-by-id">
         Binding by ID</h2>
     <h3 class="bind-by-class">
@@ -114,20 +127,6 @@
         Show
      </button>
 
-
-
-
-
-
-
-
-    <script>
-        const renderTodos = (todos) => `
-    <ul>
-        ${todos.map(todo => `
-        <li>${todo}</li>` ).join('')}
-    </ul>`; const todos = ['Pickup kids', 'Feed dogs'] let html = renderTodos(todos); document.write(html);
-    </script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="index.js">
     </script>
