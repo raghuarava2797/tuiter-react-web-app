@@ -1,5 +1,4 @@
 const PostSummaryItem = (post) => {
-    console.log(post)
     return (`
         <li class="list-group-item">
             <div class="d-flex">
