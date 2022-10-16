@@ -36,21 +36,20 @@ const PostItem = (post) => {
                     <div class="d-flex justify-content-between mt-3 wd-color-grey">
                         <div>
                             <a href="#"><i class="fa-solid fa-message wd-color-grey"></i></a>
-                            <span class="wd-ml-12">${post.commentsCount}</span>
+                            <span class="ml-15">${post.commentsCount}</span>
                         </div>
                         <div>
                             <a href="#"><i class="fa-solid fa-repeat wd-color-grey"></i></a>
-                            <span class="wd-ml-12">${post.retweetCount}</span>
+                            <span class="ml-15">${post.retweetCount}</span>
                         </div>
                         <div>
                             <a href="#"><i class="fa-solid fa-heart wd-color-grey"></i></a>
-                            <span class="wd-ml-12">${post.likeCount}</span>
+                            <span class="ml-15">${post.likeCount}</span>
                         </div>
                         <div>
                             <a href="#"><i class="fa-solid fa-upload wd-color-grey"></i></a>
                         </div>
                     </div>
-
                 </div>
             </div>
          </li>

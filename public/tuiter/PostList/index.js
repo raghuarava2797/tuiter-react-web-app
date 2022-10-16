@@ -9,6 +9,5 @@ const PostList = () => {
             }).join('')}
         </ul>
     `);
-
 }
 export default PostList
