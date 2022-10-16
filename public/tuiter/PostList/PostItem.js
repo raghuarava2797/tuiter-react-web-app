@@ -6,11 +6,16 @@ const PostItem = (post) => {
                     <img src="${post.logoIcon}" width="48px" width="48px" class="rounded-circle"/>
                 </div>
                 <div class="d-flex flex-column pl-16">
-                    <div>
-                        <span class="h7">${post.userName}</span>
-                        <span><i class="fa-solid fa-circle-check ml-5"></i></span>
-                        <span class="wd-color-light-grey">${post.handle}</span>
-                        <span class="wd-color-light-grey">&nbsp;&#183;&nbsp;${post.time}</span>
+                    <div class="d-flex">
+                        <div class="flex-grow-1">
+                            <span class="h7 font-weight-bold">${post.userName}</span>
+                            <span><i class="fa-solid fa-circle-check ml-5"></i></span>
+                            <span class="text-secondary">${post.handle}</span>
+                            <span class="text-secondary">&nbsp;&#183;&nbsp;${post.time}</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-ellipsis text-secondary"></i>
+                        </div>
                     </div>
                     <div class="row">
                         <span>${post.postDescription}</span>
@@ -22,8 +27,8 @@ const PostItem = (post) => {
                                 <div class="wd-border-btm-grey"></div>
                                 <div class="card-body">
                                     <span class="card-title">${post.postHeader}</span>
-                                    <p class="card-text wd-color-light-grey">${post.imageDescription}</p>
-                                    <a href="${post.externalLink}" class="text-decoration-none wd-color-light-grey">${post.externalLink}</a>
+                                    <p class="card-text text-secondary m-0">${post.imageDescription}</p>
+                                    <a href="${post.externalLink}" class="text-decoration-none text-secondary"><i class="fa-solid fa-link"></i>&nbsp;${post.externalLink}</a>
                                 </div>
                             </div>
                         </div>

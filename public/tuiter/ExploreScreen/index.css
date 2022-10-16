@@ -214,6 +214,27 @@
     margin-left: 25px;
 }
 
-#wd-search-input::placeholder {
+.text-grey {
+    color: grey;
+}
+
+.text-black-shade {
+    color: #222;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.br-15 {
+    border-radius: 15px;
+}
+
+.wd-color-light-grey {
     color: rgb(110, 118, 125);
 }
+
+
+/* #wd-search-input::placeholder {
+    color: rgb(110, 118, 125);
+} */
