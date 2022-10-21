@@ -85,6 +85,9 @@
     border-bottom-left-radius: 0px !important;
     border-bottom-right-radius: 0px !important;
 }
+.br-0 {
+    border-radius: 0px !important;
+}
 
 .pl-15 {
     padding-left: 15px;
@@ -96,6 +99,9 @@
 
 .ml-35 {
     margin-left: 35px;
+}
+.ml-20 {
+    margin-left: 20px;
 }
 
 .pl-10 {
