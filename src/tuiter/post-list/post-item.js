@@ -51,11 +51,11 @@ const PostItem = (
                             <div className="d-flex">
                                 <div className="flex-grow-1">
                                     <span className="h7 font-weight-bold">{post.subTweetUserName}</span>
-                                    <span><i className="fa-solid fa-circle-check ml-5"></i></span>
-                                    <span className="text-secondary">{post.subTweetHandle}</span>
+                                    <span><i className="fa-solid fa-circle-check ml-5 wd-color-light-blue"></i></span>
+                                    <span className="text-secondary pl-5">{post.subTweetHandle}</span>
                                     <span className="text-secondary">&nbsp;&#183;&nbsp;{post.subTweetTime}</span>
                                 </div>
-                                <div>
+                                <div className={post.subTweetFlag ? "d-none" : ""}>
                                     <i className="fa-solid fa-ellipsis text-secondary"></i>
                                 </div>
                             </div>
