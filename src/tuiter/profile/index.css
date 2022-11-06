@@ -1,6 +1,6 @@
 .wd-profile-avatar-format {
-    width: 150px;
-    height: 150px;
+    width: 110px;
+    height: 110px;
 }
 
 .wd-profile-avatar-margins {
@@ -42,4 +42,13 @@
 
 .pr-3 {
     padding-right: 1em;
+}
+
+.bc-grey {
+    border-color: grey;
+}
+
+.img-profile {
+    background: white;
+    object-fit: cover;
 }

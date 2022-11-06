@@ -10,12 +10,15 @@ const ProfileComponent  = () => {
   const coursesPage = () => {
     navigate('/tuiter/edit-profile');
   }
+  const homePage = () => {
+    navigate('/tuiter/');
+  }
     return (
         <div class="row">
           <div class="col-lg-8 col-xl-8">
             <div className="row align-items-center">
               <div className="col-1">
-                <i class="bi bi-arrow-left"></i>
+                <i onClick={homePage} class="bi bi-arrow-left"></i>
               </div>
               <div className="col-11">
                 <div className="row">
@@ -32,13 +35,12 @@ const ProfileComponent  = () => {
 
             <div className="d-flex justify-content-between mt-10">
               <div className="float-left">
-                {/* <img className="rounded-circle w-50" src={profileData.profilePicture}></img> */}
                 <div className="position-relative">
-                  <img src={`/images2/${profileData.profilePicture}`} className="w-200 rounded-circle wd-profile-avatar-format position-absolute wd-profile-avatar-margins"/>
+                  <img src={`/images2/${profileData.profilePicture}`} className="img-profile w-200 rounded-circle wd-profile-avatar-format position-absolute wd-profile-avatar-margins"/>
                   </div>
               </div>
               <div className="float-right">
-                    <button onClick={coursesPage} className="mr-20 rounded-pill btn btn-outline-secondary text-black font-weight-bold">Edit profile</button>
+                    <button onClick={coursesPage} className="bc-grey mr-20 rounded-pill btn btn-outline-secondary text-black font-weight-bold">Edit profile</button>
               </div>
             </div>
 
@@ -58,11 +60,11 @@ const ProfileComponent  = () => {
                 </div>
                 <div>
                   <span><i class="bi bi-balloon p-2"></i></span>
-                  <span className="text-secondary pr-2">Born &nbsp;{profileData.dateOfBirth}</span>
+                  <span className="text-secondary pr-2">Born&nbsp;{profileData.dateOfBirth}</span>
                 </div>
                 <div>
                   <span><i class="bi bi-calendar3 p-2"></i></span>
-                  <span className="text-secondary">{profileData.dateJoined}</span>
+                  <span className="text-secondary">Joined&nbsp;{profileData.dateJoined}</span>
                 </div>
               </div>
 
