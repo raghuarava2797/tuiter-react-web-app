@@ -2,11 +2,7 @@ import React from "react";
 import Parser from 'html-react-parser';
 import '@fortawesome/fontawesome-free/css/all.css';
 
-const PostItem = (
- {
-   post = {}
-}
-) => {
+const PostItem = (post) => {
  return(
       <li className="list-group-item bg-transparent br-0">
         {post.retweetedFlag === true ?
@@ -108,7 +104,6 @@ const PostItem = (
 
           </div>
       </div>
-     
            
     </li>
  );

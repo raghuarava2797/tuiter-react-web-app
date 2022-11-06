@@ -1,58 +1,43 @@
-[
-    {
-       "_id":234,
-       "topic":"Space",
-       "userName":"SpaceX",
-       "time":"2h",
-       "title":"100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
-       "image":"spacex.png",
-       "liked":true,
-       "replies":123,
-       "retuits":432,
-       "likes":2345,
-       "handle":"@spacex",
-       "tuit":"You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
-    },
-    {
-       "_id":234,
-       "topic":"Space",
-       "userName":"SpaceX",
-       "time":"2h",
-       "title":"100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
-       "image":"spacex.png",
-       "liked":true,
-       "replies":123,
-       "retuits":432,
-       "likes":2345,
-       "handle":"@spacex",
-       "tuit":"You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
-    },
-    {
-       "_id":234,
-       "topic":"Space",
-       "userName":"SpaceX",
-       "time":"2h",
-       "title":"100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
-       "image":"spacex.png",
-       "liked":true,
-       "replies":123,
-       "retuits":432,
-       "likes":2345,
-       "handle":"@spacex",
-       "tuit":"You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
-    },
-    {
-       "_id":234,
-       "topic":"Space",
-       "userName":"SpaceX",
-       "time":"2h",
-       "title":"100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
-       "image":"spacex.png",
-       "liked":true,
-       "replies":123,
-       "retuits":432,
-       "likes":2345,
-       "handle":"@spacex",
-       "tuit":"You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
-    }
- ]
+[{
+   "_id": 123,
+   "topic": "Space",
+   "userName": "SpaceX",
+   "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
+   "time": "2h",
+   "image": "../../../images/spacex-logo.jpg",
+   "liked": true,
+   "replies": 123,
+   "retuits": 432,
+   "likes": 2345,
+   "handle": "@spacex",
+   "tuit" : "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars."
+},
+{
+   "_id": 234,
+   "topic": "Space",
+   "userName": "SpaceX",
+   "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+   "time": "2h",
+   "image": "../../../images/Tesla_logo_red.png",
+   "liked": false,
+   "replies": 234,
+   "retuits": 543,
+   "likes": 3456,
+   "handle": "@tesla",
+   "tuit" : "Autopilot is an advanced driver assistance system that enhances safety and convenience behind the wheel. When used properly, Autopilot reduces your overall workload as a driver. Each new Tesla vehicle is equipped with eight external cameras and powerful vision processing to provide an additional layer of safety. All vehicles built for the North American market now use our camera-based Tesla Vision to deliver Autopilot features, rather than radar"
+},
+{
+   "_id": 345,
+   "topic": "Energy",
+   "userName": "SpaceX",
+   "title": "Tesla FSD finally makes driving obsolete. After years of delay, Tesla Full Self Driving can drive you to work while you work, play, or sleep",
+   "time": "4d",
+   "image": "../../../images/spacex-logo.jpg",
+   "liked": true,
+   "replies": 345,
+   "retuits": 321,
+   "likes": 1234,
+   "handle": "@spacex",
+   "tuit" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+}
+]
