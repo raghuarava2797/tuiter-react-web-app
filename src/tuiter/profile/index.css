@@ -1,0 +1,45 @@
+.wd-profile-avatar-format {
+    width: 150px;
+    height: 150px;
+}
+
+.wd-profile-avatar-margins {
+    bottom: -75px;
+    left: -29px;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+.mr-20 {
+    margin-right: 20px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.w-200 {
+    width: 200px;
+}
+
+.pr-2 {
+    padding-right: 0.5em;
+}
+
+.pr-3 {
+    padding-right: 1em;
+}

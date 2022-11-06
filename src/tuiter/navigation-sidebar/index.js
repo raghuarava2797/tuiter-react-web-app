@@ -6,41 +6,53 @@ import {useLocation} from "react-router";
 const NavigationSidebar = () => {
   const {pathname} = useLocation();
   const paths = pathname.split('/')
-  const active = paths[2];
+  var active = paths[2];
+  if (!paths[2]) {
+    active = "home"
+  }
  return (
    <div className="list-group">
      <a className="list-group-item">Tuiter</a>
      <Link to="/tuiter/home" className={`list-group-item
                     ${active === 'home'?'active':''}`}>
-       Home
+                      <i class="bi bi-house-door-fill"></i>
+                      <span>&nbsp;Home</span>
+       
      </Link>
      <Link to="/tuiter/explore" className={`list-group-item
                     ${active === 'explore'?'active':''}`}>
-       Explore
+                      <i class="bi bi-hash"></i>
+                      <span>&nbsp;Explore</span>
      </Link>
      <Link to="/" className={`list-group-item
                     ${active === 'notifications'?'active':''}`}>
-       Notifications
+                       <i class="bi bi-bell"></i>
+                      <span>&nbsp;Notifications</span>
      </Link>
      <Link to="/" className={`list-group-item
                     ${active === 'messages'?'active':''}`}>
-       Messages
+                       <i class="bi bi-envelope"></i>
+                      <span>&nbsp;Messages</span>
      </Link>
      <Link to="/" className={`list-group-item
                     ${active === 'bookmarks'?'active':''}`}>
-       Bookmarks
+                       <i class="bi bi-bookmark"></i>
+                      <span>&nbsp;Bookmarks</span>
      </Link>
      <Link to="/" className={`list-group-item
                     ${active === 'lists'?'active':''}`}>
-       Lists
+                       <i class="bi bi-card-checklist"></i>
+                      <span>&nbsp;Lists</span>
      </Link>
      <Link to="/tuiter/profile" className={`list-group-item
                     ${active === 'profile'?'active':''}`}>
-       Profile
+                      <i class="bi bi-person-fill"></i>
+                      <span>&nbsp;Profile</span>
      </Link>
      <Link to="/" className={`list-group-item
                     ${active === 'more'?'active':''}`}>
-       More
+                      <i class="bi bi-three-dots"></i>
+                      <span>&nbsp;More</span>
      </Link>
    </div>
  );

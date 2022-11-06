@@ -2,6 +2,7 @@ import React from "react";
 import {useSelector} from "react-redux";
 import WhoToFollowList from "../who-to-follow-list"
 import { useNavigate } from "react-router-dom";
+import './index.css';
 
 const ProfileComponent  = () => {
   const profileData = useSelector((state) => state.profile);
@@ -28,47 +29,54 @@ const ProfileComponent  = () => {
             <div className="d-flex">
               <img src={profileData.bannerPicture} className="w-100"></img>
             </div>
-            <div className="row">
-              <div className="col-9">
-                <img className="rounded-circle w-50" src={profileData.profilePicture}></img>
+
+            <div className="d-flex justify-content-between mt-10">
+              <div className="float-left">
+                {/* <img className="rounded-circle w-50" src={profileData.profilePicture}></img> */}
+                <div className="position-relative">
+                  <img src={`/images2/${profileData.profilePicture}`} className="w-200 rounded-circle wd-profile-avatar-format position-absolute wd-profile-avatar-margins"/>
+                  </div>
               </div>
-                
-              <div className="col-3">
-                    <button onClick={coursesPage} className="rounded-pill btn btn-outline-secondary text-black font-weight-bold">Edit profile</button>
+              <div className="float-right">
+                    <button onClick={coursesPage} className="mr-20 rounded-pill btn btn-outline-secondary text-black font-weight-bold">Edit profile</button>
               </div>
             </div>
+
+            <div className="d-flex flex-column ml-20 mt-30">
               <div className="row">
-                <h5>{profileData.firstName}&nbsp;{profileData.lastName}</h5>
+                <span className="font-weight-bold fs-20">{profileData.firstName}&nbsp;{profileData.lastName}</span>
                 <br></br>
-                <span>{profileData.handle}</span>
+                <span className="text-secondary">{profileData.handle}</span>
               </div>
-              <div className="row">
+              <div className="d-flex mt-10">
                 <p>{profileData.bio}</p>
               </div>
               <div className="d-flex">
                 <div>
                   <span><i class="bi bi-geo-alt"></i></span>
-                  <span>{profileData.location}</span>
+                  <span className="text-secondary p-2">{profileData.location}</span>
                 </div>
                 <div>
-                  <span><i class="bi bi-balloon"></i></span>
-                  <span>{profileData.dateOfBirth}</span>
+                  <span><i class="bi bi-balloon p-2"></i></span>
+                  <span className="text-secondary pr-2">Born &nbsp;{profileData.dateOfBirth}</span>
                 </div>
                 <div>
-                  <span><i class="bi bi-calendar3"></i></span>
-                  <span>{profileData.dateJoined}</span>
+                  <span><i class="bi bi-calendar3 p-2"></i></span>
+                  <span className="text-secondary">{profileData.dateJoined}</span>
                 </div>
               </div>
 
-              <div className="d-flex">
-                  <div>
+              <div className="d-flex mt-10">
+                  <div className="pr-3">
                     <span className="font-weight-bold">{profileData.followingCount}</span>
-                    <span>&nbsp;Following</span>
+                    <span className="text-secondary">&nbsp;Following</span>
                   </div>
                   <div>
                     <span className="font-weight-bold">{profileData.followersCount}</span>
-                    <span>&nbsp;Followers</span>
+                    <span className="text-secondary">&nbsp;Followers</span>
                   </div>
+              </div>
+
               </div>
 
           </div>
