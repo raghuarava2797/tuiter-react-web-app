@@ -13,6 +13,9 @@ const EditProfile = () => {
         var fields = dob.split("/")
         var finaldob = "";
         finaldob += (fields[2] + "-");
+        if(!dob) {
+            return "";
+        }
         if(parseInt(fields[0]) < 10) {
             finaldob += ("0" + fields[0]) + "-"
         } else {
@@ -40,7 +43,6 @@ const EditProfile = () => {
     const [followingCount, setfollowingCount] = useState(profile.followingCount);
     const [followersCount, setfollowersCount] = useState(profile.followersCount);
     const [numberOfTweets, setNumberOfTweets] = useState(profile.numberOfTweets);
-
     
     console.log(dateOfBirth)
     const closeEditProfile = () =>{ 
