@@ -10,6 +10,9 @@ const NavigationSidebar = () => {
   if (!paths[2]) {
     active = "home"
   }
+  if(paths[2] == "edit-profile") {
+    active = "profile"
+  }
  return (
    <div className="list-group">
      <a className="list-group-item">Tuiter</a>
