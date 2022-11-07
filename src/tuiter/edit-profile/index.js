@@ -70,7 +70,7 @@ const EditProfile = () => {
   return(
     <div class="row">
        <div class="col-lg-8 col-xl-8">
-            <div className="postion-absolute">  
+            <div className="postion-absolute mb-10">  
                 <div className="row align-items-center font-weight-bold">
                     <div className="col-1">
                         <a onClick={() =>closeEditProfile()}><i class="fs-25 bi bi-x"></i></a>
@@ -120,7 +120,7 @@ const EditProfile = () => {
                 </div>
             </div>
             <div className="d-flex flex-column mt-15">
-                <label for="birthday" className="text-secondary birthday-label">Birth date <span className="text-primary">Edit</span></label>
+                <label for="birthday" className="text-secondary birthday-label">Birth date&nbsp;&#183;&nbsp;<span className="text-primary">Edit</span></label>
                 <input type="date" id="birthday" name="birthday" defaultValue={dateOfBirth} onChange={e => setdateOfBirth(e.target.value)}/>
             </div>
             <div className="d-flex justify-content-between mt-15">

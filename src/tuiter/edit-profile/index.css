@@ -28,6 +28,10 @@
     margin-top: 15px;
 }
 
+.mb-10 {
+    margin-bottom: 10px;
+}
+
 .birthday-label input {
     display: block;
     /* font: 1rem 'Fira Sans', sans-serif; */
