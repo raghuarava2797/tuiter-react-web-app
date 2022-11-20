@@ -3,8 +3,6 @@ import ExploreComponent from "./explore";
 import NavigationSidebar from "./navigation-sidebar";
 import HomeComponent from "./home";
 import tuitsReducer from "./tuits/tuits-reducer";
-import profileReducer from "./profile/profile-reducer";
-import WhoToFollowList from "./who-to-follow-list";
 import {Routes, Route} from "react-router";
 import whoReducer from "./reducers/who-reducer";
 import { configureStore } from '@reduxjs/toolkit';
