@@ -1,12 +1,13 @@
 import React from "react";
 import TuitStats from "../tuits-stats";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "../tuits-reducer"
+// import {deleteTuit} from "../tuits-reducer"
+import { deleteTuitsThunk } from "../../../services/tuits-thunks";
 
 const TuitItem = ({post}) => {
 const dispatch = useDispatch();
 const deleteTuitHandler = (id) => {
-  dispatch(deleteTuit(id));
+  dispatch(deleteTuitsThunk(id));
 }
  return(
       <li className="list-group-item">
