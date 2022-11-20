@@ -10,7 +10,6 @@ const TuitsList = () => {
   useEffect(() =>{
     dispath(findTuitsThunk())
   }, [])
-  console.log(tuits)
   return(
     <ul className="list-group">
     {
